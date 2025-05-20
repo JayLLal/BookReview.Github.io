@@ -30,7 +30,7 @@ nav a:not(:last-child)::after {
 .card-container {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
   margin-top: 2rem;
   flex-wrap: wrap;
 }
@@ -43,5 +43,11 @@ nav a:not(:last-child)::after {
   text-align: center;
 }
 
+h1{
+  font-size: 2rem;
+  color: black;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
   
 
