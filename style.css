@@ -1,3 +1,31 @@
+.book-page-container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  align-items: flex-start;
+}
+
+.book-left {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 1;
+  max-width: 300px;
+}
+
+.book-right {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 2;
+}
+
+.book-left img {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  height: auto;
+}
 body{
   backround-color:#F9F5F0;
   font-family: 'Georgia',serif;
