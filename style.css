@@ -1,1 +1,32 @@
+body{
+  backround-color:#F9F5F0;
+  font-family: 'Georgia',serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+nav{
+  backround-color: white;
+  padding: 0;
+  text-align: center;
+  font-size: 18;
+  font-weight: 500;
+  border-bottom: 1px solid #ddd;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 5px 10px;
+  position: relative;
+}
+
+/* Separator line between nav links */
+nav a:not(:last-child)::after {
+  content: "|";
+  position: absolute;
+  right: -15px;
+  color: #ccc;
+}
+  
 
