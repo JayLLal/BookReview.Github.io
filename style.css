@@ -21,12 +21,27 @@ nav a {
   position: relative;
 }
 
-/* Separator line between nav links */
 nav a:not(:last-child)::after {
   content: "|";
   position: absolute;
   right: -15px;
   color: #ccc;
 }
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.card{
+  backround-color: white;
+  padding: 1rem;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  text-align: center;
+}
+
   
 
